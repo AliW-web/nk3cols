@@ -70,9 +70,14 @@
 
 		<section class="container-fluid mt-5 mb-5 flex-grow">
 			<div class="row customBackground">
-				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
-					<?= $Wcms->block('subside') ?>
-
+				<div class="col-lg-3 my-auto text-center padding40 resetTextRotation">
+					<?= section1() ?>
+				</div>
+				<div class="col-lg-3 my-auto text-center padding40 resetTextRotation">
+					<?= section2() ?>
+				</div>
+				<div class="col-lg-3 my-auto text-center padding40 resetTextRotation">
+					<?= section3()?>
 				</div>
 			</div>
 		</section>
